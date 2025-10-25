@@ -80,7 +80,7 @@ public class WeatherTest {
     }
 
 
-    // ---------- Test Case 5: Weather Icon Display ----------
+    // ---------- Test Case 4: Weather Icon Display ----------
     @Test
     public void testWeatherIconDisplay() {
         driver.get("https://www.accuweather.com/");
@@ -98,7 +98,7 @@ public class WeatherTest {
 
 
 
-    // ---------- Test Case 9: Current Weather Details ----------
+    // ---------- Test Case 5: Current Weather Details ----------
     @Test
     public void testCurrentWeatherDetails() {
         driver.get("https://www.accuweather.com/");
@@ -126,7 +126,7 @@ public class WeatherTest {
         Assert.assertFalse(pressureElement.getText().isEmpty());
     }
 
-    // ---------- Test Case 10: Footer Links ----------
+    // ---------- Test Case 6: Footer Links ----------
     @Test
     public void testFooterLinks() {
         driver.get("https://www.accuweather.com/");
